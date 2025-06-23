@@ -1,4 +1,38 @@
-* {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header-1, .footer-1{
+    background-color: rgb(161, 161, 10);
+    color: black;
+    padding: 30px;
+    text-align: left;
+
+}
+
+.header-1 nav a {
+    color: black;
+    margin: 10 10px;
+    text-decoration: none;
+
+}
+
+.header-1 nav
+
+
+
+
+
+
+
+
+
+
+
+//* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,3 +42,46 @@
 .header {
     border: 1px
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+
+.left {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+
+    .logo {
+        max-width: 10rem;
+    }
+
+    .area-name {
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+     }
+
+.right {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    color: yellow;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(223, 18, 18) 0%,
+        rgba(211, 115, 115) 35%,
+        rgba(20, 20, 20) 100%
+    );
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    box-shadow: 3px;
+    }
+}
+
