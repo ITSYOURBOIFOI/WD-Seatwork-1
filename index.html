@@ -24,6 +24,16 @@
       font-size: 24px;
       font-weight: bold;
       padding: 20px;
+      position: relative;
+    }
+
+    .header button {
+      position: absolute;
+      padding: 5px 10px;
+      background-color: #555;
+      color: white;
+      border: none;
+      cursor: pointer;
     }
 
     .footer {
@@ -33,7 +43,20 @@
       padding: 10px;
     }
 
-    /* Each section with a different pastel background */
+    .footer.right {
+      text-align: right;
+      padding-right: 30px;
+    }
+
+    .footer.left {
+      text-align: left;
+      padding-left: 30px;
+    }
+
+    .footer.center {
+      text-align: center;
+    }
+
     .section1 { background-color: #e0f7fa; }
     .section2 { background-color: #fce4ec; }
     .section3 { background-color: #fff3e0; }
@@ -44,36 +67,48 @@
 <body>
 
   <!-- Section 1 -->
-  <div class="header">Welcome to Foi Web</div>
+  <div class="header">
+    Welcome to Foi Web
+    <button style="top: 10px; right: 10px;">Explore</button>
+  </div>
   <div class="section section1">
     <h2>Introduction</h2>
     <p>This section welcomes users to the site and briefly introduces the purpose of the page.</p>
   </div>
-  <div class="footer">Section 1 Footer</div>
+  <div class="footer right">Footer 1: Welcome &rarr;</div>
 
   <!-- Section 2 -->
-  <div class="header">About the Site</div>
+  <div class="header">
+    About the Site
+    <!-- No button here -->
+  </div>
   <div class="section section2">
     <h2>What is Foi Web?</h2>
     <p>Foi Web is a fictional web project created for a school seatwork requirement using HTML and CSS only.</p>
   </div>
-  <div class="footer">Section 2 Footer</div>
+  <div class="footer left">Footer 2: Made for fun &#128187;</div>
 
   <!-- Section 3 -->
-  <div class="header">Technologies Used</div>
+  <div class="header">
+    Technologies Used
+    <button style="bottom: -20px; left: 20px;">Details</button>
+  </div>
   <div class="section section3">
     <h2>HTML & CSS</h2>
     <p>This project uses only internal CSS and pure HTML with no JavaScript or frameworks involved.</p>
   </div>
-  <div class="footer">Section 3 Footer</div>
+  <div class="footer center">Footer 3: Pure HTML/CSS Simplicity</div>
 
   <!-- Section 4 -->
-  <div class="header">Design Inspiration</div>
+  <div class="header">
+    Design Inspiration
+    <button style="top: 5px; left: 10px;">Sources</button>
+  </div>
   <div class="section section4">
     <h2>Simple, Clean Layout</h2>
     <p>Inspired by readable and colorful sections stacked vertically for simplicity and clarity.</p>
   </div>
-  <div class="footer">Section 4 Footer</div>
+  <div class="footer left">Footer 4: Inspired by minimalism</div>
 
   <!-- Section 5 -->
   <div class="header">Contact Info</div>
@@ -81,7 +116,7 @@
     <h2>Get in Touch</h2>
     <p>Contact the developer at <strong>foitech@email.com</strong> for any inquiries or feedback.</p>
   </div>
-  <div class="footer">Section 5 Footer</div>
+  <div class="footer right">Footer 5: Email us anytime</div>
 
 </body>
 </html>
