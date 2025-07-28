@@ -27,10 +27,14 @@
       position: relative;
     }
 
+    .header.center {
+      text-align: center;
+    }
+
     .header button {
       position: absolute;
       padding: 5px 10px;
-      background-color: #555;
+      background-color: #444;
       color: white;
       border: none;
       cursor: pointer;
@@ -57,17 +61,17 @@
       text-align: center;
     }
 
-    .section1 { background-color: #e0f7fa; }
-    .section2 { background-color: #fce4ec; }
-    .section3 { background-color: #fff3e0; }
-    .section4 { background-color: #e8f5e9; }
-    .section5 { background-color: #ede7f6; }
+    .section1 { background-color: #d0f0ff; }
+    .section2 { background-color: #ffd9e1; }
+    .section3 { background-color: #ffe4b3; }
+    .section4 { background-color: #ccf2d4; }
+    .section5 { background-color: #dcd1ff; }
   </style>
 </head>
 <body>
 
   <!-- Section 1 -->
-  <div class="header">
+  <div class="header center">
     🌐 Welcome to Foi Web
     <button style="top: 10px; right: 10px;">Explore</button>
   </div>
@@ -80,6 +84,7 @@
   <!-- Section 2 -->
   <div class="header">
     📝 About the Site
+    <button style="top: 10px; left: 10px;">More</button>
   </div>
   <div class="section section2">
     <h2>What is Foi Web?</h2>
@@ -88,9 +93,8 @@
   <div class="footer left">Footer 2: Made for fun 💻</div>
 
   <!-- Section 3 -->
-  <div class="header">
+  <div class="header center">
     🛠️ Technologies Used
-    <button style="bottom: -20px; left: 20px;">Details</button>
   </div>
   <div class="section section3">
     <h2>HTML & CSS</h2>
@@ -101,7 +105,7 @@
   <!-- Section 4 -->
   <div class="header">
     🎨 Design Inspiration
-    <button style="top: 5px; left: 10px;">Sources</button>
+    <button style="bottom: -25px; right: 20px;">Rate</button>
   </div>
   <div class="section section4">
     <h2>Simple, Clean Layout</h2>
@@ -110,8 +114,9 @@
   <div class="footer left">Footer 4: Inspired by minimalism</div>
 
   <!-- Section 5 -->
-  <div class="header">
+  <div class="header center">
     📬 Contact Info
+    <button style="top: 10px; left: 10px;">Buy Me a Coffee</button>
   </div>
   <div class="section section5">
     <h2>Get in Touch</h2>
