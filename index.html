@@ -24,20 +24,28 @@
       font-size: 24px;
       font-weight: bold;
       padding: 20px;
-      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     .header.center {
-      text-align: center;
+      justify-content: center;
+    }
+
+    .header .button-area {
+      display: flex;
+      gap: 10px;
     }
 
     .header button {
-      position: absolute;
-      padding: 5px 10px;
+      padding: 6px 12px;
       background-color: #444;
       color: white;
       border: none;
       cursor: pointer;
+      font-size: 14px;
     }
 
     .footer {
@@ -71,9 +79,11 @@
 <body>
 
   <!-- Section 1 -->
-  <div class="header center">
-    🌐 Welcome to Foi Web
-    <button style="top: 10px; right: 10px;">Explore</button>
+  <div class="header">
+    <span>🌐 Welcome to Foi Web</span>
+    <span class="button-area">
+      <button>Explore</button>
+    </span>
   </div>
   <div class="section section1">
     <h2>Introduction</h2>
@@ -83,8 +93,10 @@
 
   <!-- Section 2 -->
   <div class="header">
-    📝 About the Site
-    <button style="top: 10px; left: 10px;">More</button>
+    <span>📝 About the Site</span>
+    <span class="button-area">
+      <button>More</button>
+    </span>
   </div>
   <div class="section section2">
     <h2>What is Foi Web?</h2>
@@ -94,7 +106,7 @@
 
   <!-- Section 3 -->
   <div class="header center">
-    🛠️ Technologies Used
+    <span>🛠️ Technologies Used</span>
   </div>
   <div class="section section3">
     <h2>HTML & CSS</h2>
@@ -104,8 +116,10 @@
 
   <!-- Section 4 -->
   <div class="header">
-    🎨 Design Inspiration
-    <button style="bottom: -25px; right: 20px;">Rate</button>
+    <span>🎨 Design Inspiration</span>
+    <span class="button-area">
+      <button>Rate</button>
+    </span>
   </div>
   <div class="section section4">
     <h2>Simple, Clean Layout</h2>
@@ -115,8 +129,10 @@
 
   <!-- Section 5 -->
   <div class="header center">
-    📬 Contact Info
-    <button style="top: 10px; left: 10px;">Buy Me a Coffee</button>
+    <span>📬 Contact Info</span>
+    <span class="button-area">
+      <button>Buy Me a Coffee</button>
+    </span>
   </div>
   <div class="section section5">
     <h2>Get in Touch</h2>
