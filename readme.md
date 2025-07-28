@@ -1,82 +1,38 @@
-<a name="readme-top">
+# 🧪 Foi Web - Seatwork Project
 
-<br/>
+Welcome to **Foi Web Seatwork**, a simple exercise website showcasing the use of basic HTML elements including multiple headers and footers. This project was created as a practice seatwork to reinforce structure and layout using pure HTML.
 
-<br />
-<div align="center">
-  <a href="https://github.com/zyx-0314/">
-    <img src="./assets/img/image-removebg-preview (1).png" alt="Nyebe" width="340" height="200">
-  </a>
-  <h3 align="left">SD-Seatwork 1</h3>
-</div>
-<!-- TODO: Make a short description -->
-<div align="left">
-Foilan Routhe SJ. Iturrios
-</div>
+## 👨‍💻 Created By  
+**Foilan Routhe SJ. Iturrios**  
+**Section: TC - 05**
 
-<br />
+## 📚 Seatwork Description
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+This webpage was built to demonstrate essential HTML structure and creative formatting, with the following features:
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+- ✅ 5 distinct headers and 5 footers, arranged vertically  
+- ✅ Buttons added to some headers, placed in different positions  
+- ✅ No external CSS or JS used – fully HTML-based  
+- ✅ Clean layout using simple inline styling and spacing  
+- ✅ Some headers centered to vary positioning  
+- ✅ Fun non-functional buttons like “More”, “Rate”, “Buy me a coffee”
 
----
+## 📁 Project Files
 
-<br />
-<br />
+- `seatwork.html` – The main webpage with stacked headers and footers  
+- `images` – Folder for the logo image used in this README  
 
-<!-- TODO: If you want to add more layers for your readme -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#overview">Overview</a>
-      <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
-          <a href="#technology">Technology</a>
-        </li>
-      </ol>
-    </li>
-    <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
-    <li>
-      <a href="#resources">Resources</a>
-    </li>
-  </ol>
-</details>
+## 💡 Key Features
+
+- HTML5 semantic tags: `<header>`, `<footer>`, `<button>`  
+- Inline styling for layout and spacing  
+- No dependencies or external libraries  
+- Simple, readable, and functional structure  
 
 ---
 
-## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
-### Technology
-<!-- TODO: List of Technology Used -->
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+Thanks for viewing **Foi Web Seatwork**! 🧠  
+Practice makes progress.
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
