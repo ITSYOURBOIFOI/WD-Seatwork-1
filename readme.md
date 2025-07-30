@@ -1,4 +1,4 @@
-# 🧪 Foi Web - Seatwork Project
+# 🧪 WD Seatwork 1
 
 Welcome to **Foi Web Seatwork**, a simple exercise website showcasing the use of basic HTML elements including multiple headers and footers. This project was created as a practice seatwork to reinforce structure and layout using pure HTML.
 
