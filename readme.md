@@ -14,22 +14,18 @@ This webpage was built to demonstrate essential HTML structure and creative form
 - ✅ Buttons added to some headers, placed in different positions  
 - ✅ No external CSS or JS used – fully HTML-based  
 - ✅ Clean layout using simple inline styling and spacing  
-- ✅ Some headers centered to vary positioning  
 - ✅ Fun non-functional buttons like “More”, “Rate”, “Buy me a coffee”
 
 ## 📁 Project Files
 
-- `seatwork.html` – The main webpage with stacked headers and footers  
-- `images` – Folder for the logo image used in this README  
+- `index.html` – The main webpage with stacked headers and footers  
 
 ## 💡 Key Features
 
 - HTML5 semantic tags: `<header>`, `<footer>`, `<button>`  
-- Inline styling for layout and spacing  
 - No dependencies or external libraries  
 - Simple, readable, and functional structure  
 
 ---
 
 Thanks for viewing **Foi Web Seatwork**! 🧠  
-Practice makes progress.
